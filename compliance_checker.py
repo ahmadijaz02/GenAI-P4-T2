@@ -8,7 +8,7 @@ try:
 except ImportError:
     from langchain_community.embeddings import HuggingFaceEmbeddings
 
-MY_GOOGLE_API_KEY = "AIzaSyCcND3ns6bBNXIm5YAqqpqbupBrqmdPFXE"
+MY_GOOGLE_API_KEY = "AIzaSyD4uZptlyCibdkrOAv9Xt1F-azSHRyQ-jY"
 MY_GOOGLE_MODEL = os.environ.get("GOOGLE_MODEL", "models/gemini-2.0-flash")
 
 def load_rules():
